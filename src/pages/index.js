@@ -65,7 +65,7 @@ export default class Products extends React.Component {
                     alt={o.node.frontmatter.name}
                   />
                   <figcaption className={styles.figCaption}>
-                    Buy the {o.node.frontmatter.name} now
+                    Buy the {o.node.frontmatter.name} now!
                   </figcaption>
                 </figure>
               </Link>

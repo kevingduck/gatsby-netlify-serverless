@@ -83,7 +83,7 @@ export default class Product extends React.Component {
         }
       >
         Buy it now for{' '}
-        {this.props.data.markdownRemark.frontmatter.price}$
+        ${this.props.data.markdownRemark.frontmatter.price}!
       </button>
     )
 
