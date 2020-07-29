@@ -1,10 +1,10 @@
 .item {
-    float: left;
+    /* float: left; */
     display: block;
     padding: 2em;
-    width: 33%;
-    height: 400px;
-    text-align: center;
+    width: 80%;
+    height: 200px;
+    text-align: left;
 }
 
 .itemsList {
@@ -16,9 +16,9 @@
 }
 
 .image {
-    border: solid 1px rebeccapurple;
-    border-radius: 50%;
+    border: solid 1px gray;
+    border-radius: 5%;
     padding: 1em;
-    height: 200px;
-    width: 200px;
+    height: 50px;
+    width: 50px;
 }

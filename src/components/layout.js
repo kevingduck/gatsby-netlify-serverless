@@ -8,7 +8,7 @@ import './layout.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Issue tracker"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' }
@@ -30,7 +30,7 @@ const TemplateWrapper = ({ children }) => (
     <div
       style={{
         margin: '0 auto',
-        maxWidth: 960,
+        maxWidth: 1200,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0
       }}

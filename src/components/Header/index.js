@@ -11,16 +11,16 @@ export default class Header extends React.Component {
     return (
       <div
         style={{
-          background: 'rebeccapurple',
-          marginBottom: '1.45rem'
+          background: 'lightblue',
+          marginBottom: '1rem'
         }}
       >
         <div
           style={{
             display: 'flex',
             margin: '0 auto',
-            maxWidth: '960px',
-            padding: '1.45rem 1.0875rem',
+            maxWidth: '1200px',
+            padding: '1rem 1.0875rem',
             justifyContent: 'space-between'
           }}
         >
@@ -32,7 +32,7 @@ export default class Header extends React.Component {
                 textDecoration: 'none'
               }}
             >
-              Gatsby
+              Issue Tracker
             </Link>
           </h1>
           <div data-netlify-identity-menu />
